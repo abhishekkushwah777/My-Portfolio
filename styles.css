@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+body{
+    background-color: #2C2E3E;
+}
+.nav-bar{
+    background-color: #F6F6F6;
+    margin-top: 1rem;
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+        font-size: 3.2rem;
+        margin-left: 1rem;
+        color: #EE2B47;
+    }
+    p {
+        font-size: 1.2rem;
+        color: #34374C;
+    }
+    i {
+        font-size: 1.8rem;
+        color: #34374C;
+    }
+}
+.nav-icons{
+    margin-right: 1rem;
+    display: flex;
+    gap: 3rem;
+}
+.nav-tabs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home:hover{
+    p,i {
+        color: #EE2B47;
+        transition: 200ms;
+    }
+}
+#about:hover{
+    p,i {
+        color: #EE2B47;
+        transition: 200ms;
+    }
+}
+#skills:hover{
+    p,i {
+        color: #EE2B47;
+        transition: 200ms;
+    }
+}
+#projects:hover{
+    p,i {
+        color: #EE2B47;
+        transition: 200ms;
+    }
+}
+#resume:hover{
+    p,i {
+        color: #EE2B47;
+        transition: 200ms;
+    }
+}
+#contact:hover{
+    p,i {
+        color: #EE2B47;
+        transition: 200ms;
+    }
+}
+.nav-menu-icon{
+    padding: 0rem 2rem;
+    i{
+        font-size: 1.8rem;
+        color: #2C2E3E;
+    }
+}
+@media  screen and (max-width: 600px) {
+    .nav-icons{
+        display: none;
+    }
+}
+@media  screen and (min-width: 600px) {
+    .nav-menu-icon{
+        display: none;
+    }
+    
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    h2{
+        font-size: 2.5rem;
+        color: #EE2B47;
+    }
+    h1 {
+        font-size: 4.5rem;
+        margin-top: -0.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    p{
+        overflow-y: hidden;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        width: 40%;
+        height: 25%;
+    }
+}
+.break{
+    background-color: #EE2B47;
+    height: 0.3rem;
+    width: 20rem;
+}
+.profiles{
+    color: white;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    i{
+        font-size: 2.5rem;
+        margin-right: 1rem;
+    }
+}
