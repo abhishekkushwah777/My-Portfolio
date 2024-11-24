@@ -42,6 +42,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+#contact{
+    margin-right: 2rem;
+}
 #home:hover{
     p,i {
         color: #EE2B47;
@@ -79,7 +82,7 @@ body{
     }
 }
 .nav-menu-icon{
-    padding: 0rem 2rem;
+    margin-right: 2rem;
     i{
         font-size: 1.8rem;
         color: #2C2E3E;
@@ -101,6 +104,26 @@ main{
     display: flex;
     justify-content: space-between;
 }
+.hidden{
+    display: none;
+}
+#nav-menu{
+    transition: 200ms;
+    text-align: center;
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    top: 6rem;
+    backdrop-filter: blur(30px);
+    background: linear-gradient(45deg, rgba(255, 104, 116, 0.3), rgba(0, 28, 70, 0.3));
+    a {
+        text-decoration: none;
+        list-style: none;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: #F6F6F6;
+    }
+}
 .intro{
     color: white;
     margin-left: 2rem;
@@ -118,11 +141,9 @@ main{
         margin-top: 1rem;
     }
     p{
-        overflow-y: hidden;
         font-size: 1.5rem;
         margin-top: 2rem;
-        width: 40%;
-        height: 25%;
+        width: 50%;
     }
 }
 .break{
@@ -131,11 +152,11 @@ main{
     width: 20rem;
 }
 .profiles{
-    color: white;
     position: absolute;
-    bottom: 2rem;
+    margin-top: 1.5rem;
     left: 2rem;
-    i{
+    i {
+        color: white;
         font-size: 2.5rem;
         margin-right: 1rem;
     }

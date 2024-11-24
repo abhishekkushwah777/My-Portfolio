@@ -6,12 +6,13 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/840dc72f39.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <div class="nav-bar">
             <h1>Portfolio</h1>
-            <div class="nav-menu-icon">
+            <div class="nav-menu-icon" onclick="togglenavmenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div class="nav-icons">
@@ -43,6 +44,16 @@
         </div>
     </header>
     <main>
+        <div id="nav-menu" class="hidden">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
         <div class="intro">
             <h2>Hi, i am</h2>
             <h1>ABHISHEK</h1>
@@ -50,10 +61,10 @@
             <h3>Software Engineer</h3>
             <p>Dedicated learner from Gwalior, pursuing studies in software engineering with a passion for web development, i've built projects like Apple's website clone and now focusing on backend skills. Goal oriented and working to expand my technical expertise while balancing acadamic and personal growth.</p>
             <div class="profiles">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-x-twitter"></i>
+                <a href="insta"><i class="fa-brands fa-instagram"></i></a>
+                <a href="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="github"><i class="fa-brands fa-github"></i></a>
+                <a href="twitter"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
         </div>
     </main>
