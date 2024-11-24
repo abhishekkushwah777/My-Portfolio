@@ -115,7 +115,7 @@ main{
     position: absolute;
     top: 6rem;
     backdrop-filter: blur(30px);
-    background: linear-gradient(45deg, rgba(255, 104, 116, 0.3), rgba(0, 28, 70, 0.3));
+    background: linear-gradient(-90deg, rgba(255, 104, 116, 0.3), rgba(0, 28, 70, 0.3));
     a {
         text-decoration: none;
         list-style: none;
